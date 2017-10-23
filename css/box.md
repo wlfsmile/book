@@ -4,8 +4,9 @@
 
 #### 标准盒子模型
 <img src='./images/box/box1.JPG' align="center" />
-<!--more  -->
+
 **element即content**
+
 #### IE盒子模型
 <img src='./images/box/box2.JPG' align="center" />
 
