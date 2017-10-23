@@ -34,9 +34,11 @@ css
 + 效果  
 
 绝对定位
+
 <img src='./images/float/float1.JPG' align="center" />
 
 浮动
+
 <img src='./images/float/float2.JPG' align="center" />
 
 + 绝对定位：完全脱离文本流，并且相对于其包含块定位，之后的元素会彻底占据之前元素位置，文本也会
