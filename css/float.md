@@ -34,20 +34,20 @@ css
 + 效果  
 
 绝对定位
-<img src='./images/2017-10-21/float1.JPG' align="center" />
+<img src='./images/float/float1.JPG' align="center" />
 
 浮动
-<img src='./images/2017-10-21/float2.JPG' align="center" />
+<img src='./images/float/float2.JPG' align="center" />
 
 + 绝对定位：完全脱离文本流，并且相对于其包含块定位，之后的元素会彻底占据之前元素位置，文本也会
 + 浮动：文本环绕浮动元素
 
 #### 浮动的影响
 + 背景不能显示，边框不能撑开，margin、padding不能正确显示，如下代码
-<img src='./images/2017-10-21/float4.JPG' align="center" />
+<img src='./images/float/float4.JPG' align="center" />
 
 + 效果展示
-<img src='./images/2017-10-21/float3.JPG' align="center" />
+<img src='./images/float/float3.JPG' align="center" />
 
 从上面效果可以看出，父级元素的背景颜色未被显示，并且父级元素高度塌陷（父元素不写高度时，子元素写了浮动后，父元素会发生高度塌陷），box的高度为0
 
@@ -63,8 +63,8 @@ css
 + 问题：每个元素都得浮动，容易出问题
 ##### 伪类清除方法（主流）
 + 将父级div（clearfix）定义如下代码
-<img src='./images/2017-10-21/float5.JPG' align="center" />
+<img src='./images/float/float5.JPG' align="center" />
 + 原理： 利用伪类在元素内插入两个元素块
 
 ##### 清除浮动后的效果
-<img src='./images/2017-10-21/float6.JPG' align="center" />
+<img src='./images/float/float6.JPG' align="center" />
