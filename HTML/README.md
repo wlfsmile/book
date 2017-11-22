@@ -46,5 +46,12 @@ Blink:由谷歌开发，现在也是chrome的内核，实际上是由Webkit衍�
 ```
 + cookie、session、sessionStorage、localStorage的区别
 ```
-
+ 
 ```
++ iframe的缺点
+```
+(1)会阻塞主页面的onload事件
+(2)搜索引擎的检索程序无法解读这种页面，不利于SEO
+(3)
+```
++ 
