@@ -2,6 +2,7 @@
 这是我为面试准备的一个合集（持续更新）
 
 * [Introduction](README.md)
+* [HTML](./HTML/README,md)
 * CSS
     * [浮动和清除浮动](./css/float.md)
     * [盒子模型](./css/box.md)
@@ -14,11 +15,12 @@
     * [变量、作用域](./JavaScript/变量及其作用域.md)
     * 函数
     * [对象属性（创建对象的过程、方法）](./JavaScript/对象.md)
+    * [引用类型](./JavaScript/引用类型.md)
     * this
     * 闭包
     * 原型与原型链
-    * DOM
-    * 事件
+    * [DOM](./JavaScript/DOM.md)
+    * [事件](./JavaScript/事件.md)
     * call与apply、bind
     * JSON
     * ajax以及跨域
