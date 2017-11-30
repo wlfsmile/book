@@ -1,6 +1,6 @@
 ### JavaScript——DOM与DOM优化
 
-###DOM
+### DOM
 
 #### nodeType属性（表明节点类型12个）
 + element
@@ -21,7 +21,7 @@
 + removeChild()
 + replaceChild()
 + insertBefore() //在已有的子节点前插入一个新节点
-
+ 
 ##### 查找
 + getElementByTagName() // 通过标签名
 + getElementByName() //通过元素的Name属性的值(IE容错能力较强，会得到一个数组，其中包括id等于name值的)
