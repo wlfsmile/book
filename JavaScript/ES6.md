@@ -207,6 +207,8 @@ coder.sleep();   // => Save all files. => Get into bed. => The coder is sleeping
 + 如果子类有构造方法，那么在子类构造方法中使用 this 对象之前必须使用 super() 方法运行父类的构造方法以对父类进行初始化。
 + 在子类方法中我们也可以使用 super 对象来调用父类上的方法。如示例代码中子类的 sleep() 方法：在这里我们重写了父类中的 sleep() 方法，添加了两条语句，并在方法末尾使用 super 对象调用了父类上的 sleep() 方法。
 
+#### Promise
+
 #### 模块化（import和export）
 + export暴露，import引入
 + 封闭的代码（每个模块都有自己完全独立的代码块，跟作用域类似，但是更加封闭）
