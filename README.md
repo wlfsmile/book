@@ -9,7 +9,7 @@
     * [Flex](./css/flex.md)
     * [预处理](./css/pretreatment.md)
     * 优先级
-    * 布局
+    * [布局](./css/布局.md)
     * CSS3的基本属性
 * JavaScript
     * [变量、作用域](./JavaScript/变量及其作用域.md)

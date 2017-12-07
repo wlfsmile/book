@@ -1,15 +1,15 @@
 ###JavaScript——ES6新特性
 
 #### 默认参数
-```
+```js
 var a = function(m,n){
     var m = m || 50;
     var n = n || 'es';
-    ...
+    //...
 }
 ```
 变为直接放在函数签名中，因为如果参数为0,在JavaScript中为false
-```
+```js
 var a = function(m=50,n='es'){
     //do something
 }
@@ -17,21 +17,21 @@ var a = function(m=50,n='es'){
 规范：设定了默认值的入参，应该放在没有设置默认值的参数之后
 
 #### 模板字符串
-```
+```js
 var myname = 'wlfsmile';
 var yourname = 'youname';
 
 var name = 'your name is'+ yourname +'and my name is'+ myname;
 ```
 变为
-```
+```js
 var name = `your name is ${yourname} and my name is ${myname}`;
 ```
 
 #### 解构赋值
 + ES6 允许按照一定模式，从数组和对象中提取值，对变量进行赋值
 数组
-```
+```js
     var [a,b,c]=[11,22,33]
     console.log(a,b,c)//11 22 33
 
@@ -40,12 +40,12 @@ var name = `your name is ${yourname} and my name is ${myname}`;
     console.log(b); // => 3
 ```
 对象
-```
+```js
 var{name,age}={name:"张三",age:"20"}
     console.log(name,age)//张三 20
 ```
 解构json
-```
+```js
 var jike = {"name":"tom","age":"23","sex":"男"};
     var {name,age,sex}=jike;
     console.log(name,age,sex)//tom 23 男
@@ -86,7 +86,7 @@ var jike = {"name":"tom","age":"23","sex":"男"};
 + 当函数体只有一个 return 语句时可以省略函数体的花括号与 return 关键字
 
 ##### this
-```
+```js
 //before
 var obj = {
     arr: [1, 2, 3, 4, 5, 6],
@@ -121,7 +121,7 @@ var obj = {
 
 ##### arguments
 + 当函数体中有另外一个函数，并且该函数为箭头函数时，该箭头函数的函数体中可以直接访问父级函数的 arguments 对象。
-```
+```js
 function getSum() {
     var example = () => {
         return Array
@@ -142,7 +142,7 @@ getSum(1, 2, 3); // => 6
 + 不能使用字面量定义属性
 + 动态继承类的构造方法中super优先于this
 
-```
+```js
 /* 类不会被提升 */
 let puppy = new Animal('puppy'); // => ReferenceError
 
@@ -180,7 +180,7 @@ class Animal() {} // => SyntaxError
 + 类中无法像对象一样使用 prop: value 或者 prop = value 的形式定义一个类的属性，我们只能在类的构造方法或其他方法中使用 this.prop = value 的形式为类添加属性。
 
 ##### 类的继承
-```
+```js
 class Programmer extends Animal {
     constructor(name) {
         /* 在 super 方法之前 this 不可用 */
