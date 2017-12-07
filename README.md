@@ -22,7 +22,7 @@
     * [DOM](./JavaScript/DOM.md)
     * [事件](./JavaScript/事件.md)
     * call与apply、bind
-    * JSON
+    * [JSON](./JavaScript/JSON.md)
     * ajax以及跨域
     * [ES6（新特性，模块化之类的）](./JavaScript/ES6.md)
 * 框架（React）
