@@ -23,7 +23,7 @@
     * [事件](./JavaScript/事件.md)
     * call与apply、bind
     * [JSON](./JavaScript/JSON.md)
-    * ajax以及跨域
+    * [ajax以及跨域](./JavaScript/ajax.md)
     * [ES6（新特性，模块化之类的）](./JavaScript/ES6.md)
 * 框架（React）
     * 三大框架比较，为什么使用React

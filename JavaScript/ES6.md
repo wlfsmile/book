@@ -1,4 +1,4 @@
-###JavaScript——ES6新特性
+### JavaScript——ES6新特性
 
 #### 默认参数
 ```js
