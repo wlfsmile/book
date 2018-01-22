@@ -2,7 +2,7 @@
 
 1. css的动画属性
 + transform 转换
-+ transaction 过渡
++ transition 过渡
 + animation 动画
 
 2. ajax创建过程
@@ -56,3 +56,5 @@ function deepCopy(initalObject,finalObject){
 }
 
 ```
+
+6. github创建分支
