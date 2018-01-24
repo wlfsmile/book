@@ -60,6 +60,10 @@
 + 说一下箭头函数
 + 说一下ES6的class
 + class的super有什么作用？在super前能用this么？为什么
++ 你Git使用的是图形化还是命令行？如果要删除远程分支的命令行是怎样的
 + 说一下React的生命周期
 + 为什么一定要在componentDidMount()中使用ajax，如果在此之前调用ajax会怎样
-+ 
++ 你在node搭建的过程中，是怎么处理他的异步情况
++ 你怎么理解的node即是单线程，又可以异步的
++ 你知道node的循环机制么
++ 你说一下mongodb的命令
