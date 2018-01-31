@@ -82,7 +82,7 @@ props是react用来让组件间相互联系的一种机制，类似于参数。p
 ##### 跨级组件
 使用**context**  
 
-
+ 
 #### 参考资料
 [理解 Virtual DOM](https://github.com/y8n/blog/issues/5)
 [深度剖析：如何实现一个 Virtual DOM 算法](https://github.com/livoras/blog/issues/13)
